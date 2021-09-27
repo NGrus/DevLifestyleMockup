@@ -1,0 +1,136 @@
+
+  body{
+    font-family: 'Slabo 13px', serif;
+    background-color: rgb(170, 191, 218);
+  }
+  div{
+      font-family: 'Slabo 13px', serif;
+      
+  }
+  img{
+    padding: 10px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Slabo 13px', serif;
+  }
+  .blog-description{
+    display: flex;
+    justify-content: flex-start;
+  }
+  #newsletterform{
+    background-color:gray;
+    margin:100px;
+    text-align: center;
+    padding:50px;
+  }
+  button{
+    margin:10px;
+  }
+  .description{
+    display: flex;
+    text-align: justify;
+    padding-right: 25px;
+  }
+  .titleImages{
+      height: 300px;
+      width: 500px;
+
+  }
+  .card-img-top{
+    height: 200px;
+    width: 200px; 
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(170, 191, 218);
+  }
+  #loginwindow{
+    margin:100px;
+    background-color:gray;
+    padding:70px;
+    width:400px;
+    text-align:center;
+  }
+  #userwindow{
+    margin:100px;
+    background-color:gray;
+    padding:70px;
+    width:400px;
+    text-align:center;
+  }
+  #loginwindow a{
+    margin:10px;
+  }
+.col-md-4{
+  align-items: center;
+  text-align: center;
+  background-color: rgb(170, 191, 218);
+  display: flex;
+  justify-content: space-around;
+
+}
+.card mb-4 box-shadow{
+  background-color: rgb(170, 191, 218);
+}
+  
+
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    width:100%;
+  }
+  
+  nav{
+    width:100%;
+    text-align:center;
+    align-items:center;
+  }
+  
+
+  
+  
+  .row.content {height: 450px}
+  
+  .sidenav {
+    padding-top: 20px;
+  }
+  
+  #footer{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+  }
+  
+  .footdiv{
+    flex:1;
+  }
+  
+  #backtotop{
+    position:fixed;
+    bottom:80px;
+    right:90px;
+    width:30px; 
+    height:30px;
+  }
+  .container{
+    background-color: rgb(170, 191, 218);
+
+  }
+  
+  footer {
+    background-color: rgb(58, 58, 58);
+    color: white;
+    padding:20px;
+    width:100%;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
+    .sidenav{
+      display:none;
+    }
+  }
